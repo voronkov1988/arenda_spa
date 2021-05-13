@@ -1,0 +1,40 @@
+.wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 2em 0;
+    background-color: yellow;
+}
+.cities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cities h4 {
+    font-size: 1.4em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cities span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.map img{
+    max-height: 300px;
+}
