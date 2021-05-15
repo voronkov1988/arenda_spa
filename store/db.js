@@ -1,7 +1,9 @@
 export const products = {
     Москва: {
         Велосипед: [
-            'velo1', 'velo2', 'velo3'
+            {id:1, title: 'Scott Voltage FR 710', img: '/products/velo-scott-voltage-FR710.jpg', descr: 'loren'},
+            {id: 2, title: 'Scott Aspect 10', img: '/products/velo-scott-aspect10.webp', descr: 'lodsgfjdgskmdjghf'},
+            {id: 3, title: 'Altair HT 20', img: '/products/velo-altair-ht-20.jpg'}
         ],
         Самокат: [
             'samo1', 'samo2', 'samo3'
