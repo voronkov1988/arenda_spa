@@ -1,0 +1,58 @@
+.wrapper {
+    width: 105%;
+    margin-left: -2.5%;
+    padding: 4em 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:lightgoldenrodyellow;
+    /* align-items: center; */
+    text-align: center;
+}
+.allProducts {
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-auto-rows: 400px;
+   position: relative;
+    margin-top: -25px;
+  /* margin : 50px; */
+}
+
+.oneProduct {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.oneProduct img {
+    width: 250px;
+}
+.oneProduct h3 {
+    line-height: 0;
+    font-size: 2em;
+    margin-top: 0px;
+}
+.h2{
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.button {
+    position: block;
+    text-align: center;
+    font-size: 1.6em;
+    background-color: yellow;
+    font-weight: bolder;
+    padding: .5em 1em;
+    border-radius: 30px;
+    margin-top: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}

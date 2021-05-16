@@ -1,0 +1,18 @@
+.categoryBlock {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: bold;
+    
+}
+.active {
+    background-color: yellow;
+}
+.categoryBlock span {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: .5em 1em;
+}

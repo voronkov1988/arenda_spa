@@ -1,0 +1,37 @@
+.wrapper {
+    width: 90%;
+    margin-left: -2.5%;
+    padding: 2em 0;
+}
+.strelki {
+    margin-left: 24%;
+}
+
+.imgBlock {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: inline-block;
+    /* flex-direction: column; */
+}
+.manual {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+.manual span {
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+.first {
+    color: #cde01c;
+}
+.manual img {
+    max-width: 100px;
+}

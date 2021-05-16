@@ -6,10 +6,14 @@ export const products = {
             {id: 3, title: 'Altair HT 20', img: '/products/velo-altair-ht-20.jpg'}
         ],
         Самокат: [
-            'samo1', 'samo2', 'samo3'
+            {id: 1, title: 'Xiaomi mi 365', img: '/products/xiaomi-mi365.jpg', descr: 'Самокат xiaomi mi365 very good'},
+            {id: 2, title: 'Kuugo G1', img: '/products/xiaomi-kugo-s2.webp', descr: 'Самокат KUUGO S2'}, 
+            {id: 3, title: 'Ninebot Kikcskooter ES2', img: '/products/kikcskooter-es2.webp', descr: 'Отличный выбор самоката для города ES2'}
         ],
         Приставки: [
-            'prist1', 'prist2', 'prist3', 'prist4'
+            {id: 1, title: 'Sony Playstation 5', img: '/products/PS5.jpg', descr: 'Самая новая приставка для хорошего времяпровождения'},
+            {id: 2, title: 'Sony Playstation 4', img: '/products/PS4pro.png', descr: 'Одна из лучших приставок для ва с и ваших детей'},
+            {id: 3, title: 'Sony Playstation 3', img: '/products/ps3.jpg', descr: 'Бюджетный вариант для хорошего времяпровождения дома, для всей семьи'}
         ]
     },
     Краснодар: {
