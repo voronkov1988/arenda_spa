@@ -48,3 +48,8 @@
     font-family: cursive;
     text-shadow: 4px 4px 20px yellow;
 }
+/* @media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+} */

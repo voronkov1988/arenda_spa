@@ -18,6 +18,7 @@ function Wrapper ({city, setCity, filterProduct,
                 <title>{title}</title>
                 <meta name="description" content = {description} />
                 <meta name="keywords" content = {keywords} />
+                <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" />
             </Head>
             <Header city={city} setCity={setCity} filterProduct={filterProduct} />
             {

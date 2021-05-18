@@ -16,14 +16,14 @@ export function Previlegies() {
                     <img src='/best/weather.png'/>
                 </div>
                 <img src='/best/strelka.png' />
-                <p>Большой выбор арендуемых товаров</p>
+                <p>Работаем в любую погоду и в любое время года</p>
             </div>
             <div className={styles.items}>
                 <div className={styles.imageWrap}>
                     <img src='/best/repair.png'/>
                 </div>
                 <img src='/best/strelka.png' />
-                <p>Большой выбор арендуемых товаров</p>
+                <p>Устраним поломку и выдадим новый товар</p>
             </div>
             </div>
             <div className={styles.nav}>

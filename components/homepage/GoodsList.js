@@ -1,59 +1,115 @@
 import styles from '../../styles/goodsList.module.css'
 import { connect } from 'react-redux'
 import Image from 'next/image'
+import { Category } from '../../components/homepage/Category'
 
 export function GoodsList({ stateProduct, children }) {
     console.log(stateProduct)
     return (
         <>
-            <h2 className={styles.h2}>Выберите товар</h2>
+            <Category />
             <div className={styles.wrapper}>
-                {children}
-                <div className={styles.allProducts}>
-                    <div className={styles.oneProduct}>
-                        <div className={styles.mainBlock}>
-                            <h3>Sony Playstation 4</h3>
-                            <Image src='/products/PS4pro.png' width={400} height={300} />
-                            <div className={styles.costBlock}>
-                                <span>day: 450r</span>
-                                <span>month: 5600 r</span>
-                                <span>year: 60000r</span>
-                            </div>
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>День: </span>
+                            <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
                         </div>
-                        <span className={styles.button}>Оформить аренду</span>
-                    </div>
-
-                    <div className={styles.oneProduct}>
-                        <div className={styles.mainBlock}>
-                            <h3>Sony Playstation 4</h3>
-                            <Image src='/products/velo_26.png' width={400} height={300} />
-                            <div className={styles.costBlock}>
-                                <span>day: 450r</span>
-                                <span>month: 5600 r</span>
-                                <span>year: 60000r</span>
-                            </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Месяц: </span>
+                            <span className={styles.cost}>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
-                        <span className={styles.button}>Оформить аренду</span>
-                    </div>
-                    
-                    <div className={styles.oneProduct}>
-                        <div className={styles.mainBlock}>
-                            <h3>Sony Playstation 4</h3>
-                            <Image src='/products/xiaomi-kugo-s2.webp' width={400} height={300} />
-                            <div className={styles.costBlock}>
-                                <span>day: 450r</span>
-                                <span>month: 5600 r</span>
-                                <span>year: 60000r</span>
-                            </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Год: </span>
+                            <span className={styles.cost}>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
-                        <span className={styles.button}>Оформить аренду</span>
                     </div>
-
-
-
+                    <span className={styles.button}>Арендовать</span>
                 </div>
-            </div>
 
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>День: </span>
+                            <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Месяц: </span>
+                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Год: </span>
+                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span>День: </span>
+                            <span>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Месяц: </span>
+                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Год: </span>
+                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span>День: </span>
+                            <span>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Месяц: </span>
+                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Год: </span>
+                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>День: </span>
+                            <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Месяц: </span>
+                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span>Год: </span>
+                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+                
+            </div>
         </>
     )
 
@@ -64,3 +120,7 @@ const mapStateToProps = (state) => ({
 })
 
 export default connect(mapStateToProps, null)(GoodsList)
+
+{/* <Image src='/products/PS4pro.png' width={400} height={300} />
+<Image src='/products/velo_26.png' width={400} height={300} />
+<Image src='/products/xiaomi-kugo-s2.webp' width={400} height={300} /> */}
