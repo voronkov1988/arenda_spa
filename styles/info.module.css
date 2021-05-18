@@ -15,6 +15,9 @@
     display: inline-block;
     /* flex-direction: column; */
 }
+.left img {
+    max-width: 100%;
+}
 .manual {
     font-size: 2.2em;
     text-transform: uppercase;
@@ -34,4 +37,29 @@
 }
 .manual img {
     max-width: 100px;
+}
+
+@media (max-width: 1020px) {
+    .manual span {
+        margin: 20px 0 40px 0;
+        text-align: center;
+    }
+    .manual {
+        font-size: 1.6em;
+    }
+    .strelki {
+        width: 40%;
+    }
+}
+@media (max-width: 750px) {
+    .wrapper {
+        width: 100%;
+    }
+    .imgBlock {
+        flex-direction: column-reverse;
+    }
+    .strelki {
+        width: 50%;
+        margin-left: 10%;
+    }
 }

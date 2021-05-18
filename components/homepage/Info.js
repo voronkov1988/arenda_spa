@@ -1,8 +1,5 @@
 import styles from '../../styles/info.module.css'
 
-const category = [
-    {id: 1, }
-]
 
 export function Info () {
     return (
