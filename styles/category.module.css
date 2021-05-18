@@ -4,7 +4,6 @@
     height: auto;
     width: 100%;
     font-weight: bold;
-    
 }
 .active {
     background-color: yellow;
@@ -19,4 +18,24 @@
     text-transform: uppercase;
     cursor: pointer;
     padding: .5em 1em;
+}
+
+@media (max-width: 845px) {
+    .categoryBlock span {
+        font-size: 1em;
+    }
+}
+@media (max-width: 700px) {
+    .categoryBlock span {
+        font-size: .8em;
+    }
+}
+@media (max-width: 565px) {
+    .categoryBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+    .categoryBlock span{
+        font-size: 1.4em;
+    }
 }

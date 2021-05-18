@@ -38,52 +38,12 @@ export function GoodsList({ stateProduct, children }) {
                             <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                         <div className={styles.period}>
-                            <span>Месяц: </span>
-                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                            <span className={styles.forPeriod}>Месяц: </span>
+                            <span className={styles.cost}>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                         <div className={styles.period}>
-                            <span>Год: </span>
-                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                    </div>
-                    <span className={styles.button}>Арендовать</span>
-                </div>
-
-                <div className={styles.oneProduct}>
-                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
-                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
-                    <div className={styles.info}>
-                        <div className={styles.period}>
-                            <span>День: </span>
-                            <span>340 <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                        <div className={styles.period}>
-                            <span>Месяц: </span>
-                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                        <div className={styles.period}>
-                            <span>Год: </span>
-                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                    </div>
-                    <span className={styles.button}>Арендовать</span>
-                </div>
-
-                <div className={styles.oneProduct}>
-                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
-                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
-                    <div className={styles.info}>
-                        <div className={styles.period}>
-                            <span>День: </span>
-                            <span>340 <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                        <div className={styles.period}>
-                            <span>Месяц: </span>
-                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
-                        </div>
-                        <div className={styles.period}>
-                            <span>Год: </span>
-                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                            <span className={styles.forPeriod}>Год: </span>
+                            <span className={styles.cost}>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                     </div>
                     <span className={styles.button}>Арендовать</span>
@@ -98,12 +58,52 @@ export function GoodsList({ stateProduct, children }) {
                             <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                         <div className={styles.period}>
-                            <span>Месяц: </span>
-                            <span>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                            <span className={styles.forPeriod}>Месяц: </span>
+                            <span className={styles.cost}>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                         <div className={styles.period}>
-                            <span>Год: </span>
-                            <span>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                            <span className={styles.forPeriod}>Год: </span>
+                            <span className={styles.cost}>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>День: </span>
+                            <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Месяц: </span>
+                            <span className={styles.cost}>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Год: </span>
+                            <span className={styles.cost}>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                    </div>
+                    <span className={styles.button}>Арендовать</span>
+                </div>
+
+                <div className={styles.oneProduct}>
+                    <h3>Горный велосипед Aspect Air (185-190см)</h3>
+                    <Image src='/products/xiaomi-kugo-s2.webp' width={300} height={200} />
+                    <div className={styles.info}>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>День: </span>
+                            <span className={styles.cost}>340 <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Месяц: </span>
+                            <span className={styles.cost}>{340 * 30} <span className={styles.rubl}>&#8399;</span></span>
+                        </div>
+                        <div className={styles.period}>
+                            <span className={styles.forPeriod}>Год: </span>
+                            <span className={styles.cost}>{340 * 30 * 12} <span className={styles.rubl}>&#8399;</span></span>
                         </div>
                     </div>
                     <span className={styles.button}>Арендовать</span>

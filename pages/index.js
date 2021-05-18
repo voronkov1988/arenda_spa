@@ -1,4 +1,3 @@
-import { useEffect, useState, Fragment } from 'react'
 import styles from '../styles/Home.module.css'
 import  Wrapper  from '../components/wrapper/Wrapper'
 import { Provider } from 'react-redux'
@@ -12,10 +11,8 @@ import { ContactForm } from '../components/homepage/ContactFrom'
 
 
 export default function Home() {
-  const [width, setWidth] = useState({width: 0})
-  
   return (
-    <Fragment>
+    <>
       <Provider store={store}>
         <Wrapper>
           <Slides />
@@ -28,6 +25,6 @@ export default function Home() {
         </Wrapper>
       </Provider>
 
-    </Fragment>
+    </>
   )
 }
