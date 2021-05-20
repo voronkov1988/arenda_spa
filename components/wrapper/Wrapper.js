@@ -2,14 +2,14 @@
 import styles from '../../styles/wrapper.module.css'
 import { Header } from './Header'
 import { connect } from 'react-redux'
-import {setCity,filterProduct} from '../../store/slices'
+import {setCity,filterProduct, getCity} from '../../store/slices'
 import { Footer } from './Footer'
 import Head from 'next/head'
 
 const descriptionHomepage = 'Арендовать самокаты, велосипеды, игровые приставки, sup борды по самым низким ценам в Краснодаре и в других крупных городах РФ'
 const keywordsHomepage = 'Аренда самокатов, арендовать игровую приставку, аренда велосипедов в Краснодаре, взять в аренду sup борд'
 
-function Wrapper ({city, setCity, filterProduct, 
+function Wrapper ({city, setCity, filterProduct, getCity,
                 stateProduct, children, title = 'Главная | Аренда техники',
                 description = descriptionHomepage, keywords = keywordsHomepage}) {
     return (
@@ -20,7 +20,7 @@ function Wrapper ({city, setCity, filterProduct,
                 <meta name="keywords" content = {keywords} />
                 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" />
             </Head>
-            <Header city={city} setCity={setCity} filterProduct={filterProduct} />
+            <Header city={city} setCity={setCity} filterProduct={filterProduct} getCity={getCity}/>
             {
                 children
             }
@@ -31,11 +31,13 @@ function Wrapper ({city, setCity, filterProduct,
 
 const mapStateToProps = (state) => ({
     city: state.city,
-    stateProduct: state.stateProduct
+    stateProduct: state.stateProduct,
+    fetchCity: state.fetchCity
 })
 const mapDispatchToProps = ({
     setCity,
-    filterProduct
+    filterProduct,
+    getCity
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Wrapper)

@@ -3,6 +3,7 @@ import {products} from './db'
 
 const initialState = {
     city: null,
+    fetchCity: null,
     stateProduct: {}
 }
 
@@ -21,8 +22,15 @@ const slices = createSlice({
                 ...state,
                 stateProduct: products[action.payload]
             }
-        }
+        },
+        getCity(state, action){
+            return {
+                ...state,
+                fetchCity: action.payload
+            }
+        },
+        
     }
 })
-export const {setCity, filterProduct} = slices.actions
+export const {setCity, filterProduct, getCity} = slices.actions
 export default slices.reducer

@@ -4,11 +4,12 @@
     margin-left: -2.5%;
     background: url('/contactbg.png');
     background-size: cover;
-    font-size: 3em;
+    font-size: 2em;
     color: white;
     display: flex;
     justify-content: space-between;
 }
+
 .infoBlock {
     width: 80%;
     margin-left: 10%;
@@ -22,4 +23,54 @@
 }
 .left span:nth-child(2){
     margin-top: 30px;
+}
+.left span:nth-child(1){
+    font-size: 1.7em;
+    color: orange;
+    font-weight: bolder;
+}
+.mesengers {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.mesengers span {
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+    padding: .5em 1em;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.mesengers span:hover{
+    color: red;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.active {
+    border-radius: 40px;
+    padding: 0 2em;
+    background-color: yellow;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    transition: .7s all;
+    -webkit-transition: .7s all;
+    -moz-transition: .7s all;
+    -ms-transition: .7s all;
+    -o-transition: .7s all;
+    
 }
