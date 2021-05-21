@@ -72,6 +72,7 @@
     -moz-transition: .7s all;
     -ms-transition: .7s all;
     -o-transition: .7s all;
+    
 }
 .right {
     display: flex;
