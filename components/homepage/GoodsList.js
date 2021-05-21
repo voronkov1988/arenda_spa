@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { Category } from '../../components/homepage/Category'
 
 export function GoodsList({ stateProduct, children }) {
-    console.log(stateProduct)
     return (
         <>
             <Category />

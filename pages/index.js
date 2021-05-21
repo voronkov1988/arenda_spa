@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import  Wrapper  from '../components/wrapper/Wrapper'
+import  WrapperContainer from '../components/wrapper/WrapperContainer'
 import { Provider } from 'react-redux'
 import { store } from '../store/store'
 import { Previlegies } from '../components/homepage/Previlegies'
@@ -11,10 +11,12 @@ import { ContactForm } from '../components/homepage/ContactFrom'
 
 
 export default function Home() {
+ 
+
   return (
     <>
       <Provider store={store}>
-        <Wrapper>
+        <WrapperContainer>
           <Slides />
           <Previlegies/>
           <Info />
@@ -22,7 +24,7 @@ export default function Home() {
             <Category />
           </GoodsList>
           <ContactForm />
-        </Wrapper>
+        </WrapperContainer>
       </Provider>
 
     </>
