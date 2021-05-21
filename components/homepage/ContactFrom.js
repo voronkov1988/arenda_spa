@@ -70,25 +70,25 @@ export function ContactForm() {
 
 function Caller() {
     return (
-        <form>
-            <input type='tel' />
-            <input type='submit' />
+        <form className={styles.form}>
+            <input type='tel' placeholder='+7(999)999-99-99' />
+            <input type='submit' value='Заказать звонок' />
         </form>
     )
 }
 function EMail (){
     return (
-        <form>
-            <input type='email' />
+        <form className={styles.form}>
+            <input type='email' placeholder='myemail@mail.ru' />
             <input type='submit' value='Отправить email' />
         </form>
     )
 }
 function Telegram(){
     return (
-        <a href='https://t.me/abarmot88' target='_blank' >Написать в Telegram</a>
+        <a className={styles.link} href='https://t.me/abarmot88' target='_blank' >Написать в Telegram</a>
     )
 }
 function Whatsapp () {
-    return <a href='https://wa.me/79269574688' target='_blank' >Написать в Whatsapp</a>
+    return <a className={styles.link} href='https://wa.me/79269574688' target='_blank' >Написать в Whatsapp</a>
 }
