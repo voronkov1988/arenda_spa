@@ -1,4 +1,4 @@
-import { InfoPage } from "../components/InfoPage"
+import { InfoPage } from "../components/infoPage/InfoPage"
 import { Footer } from "../components/wrapper/Footer"
 import { Header } from "../components/wrapper/Header"
 import { Wrapper } from "../components/wrapper/Wrapper"

@@ -1,6 +1,5 @@
 .wrapper {
-    width: 105%;
-    margin-left: -2.5%;
+    width: 100%;
 }
 .topBlock p{ 
     color: orange;
@@ -62,4 +61,27 @@
     letter-spacing: 3px;
     color: darkslategray;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    text-shadow: 1px 2px 10px gray;
+}
+.infoCost{
+    padding-left: 3em;
+}
+.infoCost p {
+    font-family: Mont,sans-serif;
+    font-size: 24px; 
+    color: orange;
+    text-shadow: 1px 1px 10px gray;
+}
+.infoCost ul li {
+    font-family: MuseoSansCyrl,sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.rubl {
+    font-family: 'PT Sans', serif;
 }

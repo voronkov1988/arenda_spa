@@ -8,7 +8,7 @@ export function TopMenu () {
         <div className={styles.wrapper}>
             <Link href='/'><a className={styles.logo}>Аренда<span>TOP</span></a></Link>
             <nav className={styles.menu}>
-                <Link href='/about'><a>Соглашение</a></Link>
+                <Link href='/oferta'><a>Соглашение</a></Link>
                 <Link href='/info'><a>Информация</a></Link>
                 <Link href='/contacts'><a>Контакты</a></Link>
             </nav>

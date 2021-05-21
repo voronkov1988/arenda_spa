@@ -9,8 +9,7 @@
     font-size: 2em;
     font-weight: 800;
     font-family: cursive;
-    /*box-shadow: -5px -5px 20px  gray;
-    */padding: 10px 10px;
+    padding: 10px 10px;
     transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
@@ -48,8 +47,3 @@
     font-family: cursive;
     text-shadow: 4px 4px 20px yellow;
 }
-/* @media (max-width: 1000px) {
-    .menu {
-        display: none;
-    }
-} */
