@@ -1,0 +1,65 @@
+.wrapper {
+    width: 105%;
+    margin-left: -2.5%;
+}
+.topBlock p{ 
+    color: orange;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family:cursive;
+    font-weight: 700;
+}
+.topBlock {
+    height: auto;
+    background: url('/contactbg.png') bottom center;
+    padding: 100px 0 100px 0;
+}
+.topBlock h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: fantasy;
+}
+.content {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.4em;
+    font-family:monospace;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 30px 20px 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.step img {
+    max-height: 100px;
+}
+.title {
+    display: block;
+    font-size: 1.4em;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.description {
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: darkslategray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
